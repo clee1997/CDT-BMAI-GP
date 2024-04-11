@@ -1,0 +1,11 @@
+task: biolama_ctd
+training_split: train
+validation_split: validation
+test_split: test
+class: !function task.BioLAMA
+
+# set env var for API KEY
+# run following command
+# python lm_eval --model openai-chat-completions --model_args model=gpt-3.5-turbo --tasks biolama_ctd --output_path ./eval_output 
+
+# --include_path
