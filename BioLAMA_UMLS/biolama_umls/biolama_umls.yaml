@@ -1,0 +1,5 @@
+task: biolama_umls
+training_split: train
+validation_split: validation
+test_split: test
+class: !function task.BioLAMA 
