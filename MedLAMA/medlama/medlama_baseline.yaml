@@ -1,0 +1,5 @@
+task: MedLAMA
+training_split: null
+validation_split: null
+test_split: test
+class: !function task.MedLAMA
