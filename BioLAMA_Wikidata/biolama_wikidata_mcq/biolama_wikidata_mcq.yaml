@@ -1,5 +1,5 @@
 task: biolama_wikidata_mcq
-dataset_path:  CDT-BMAI-GP/Biolama-Wikidata
+dataset_path:  CDT-BMAI-GP/Biolama-Wikidata-MCQ
 output_type: generate_until
 training_split: null
 validation_split: validation
